@@ -1,6 +1,12 @@
-Java
+NASA RMC MQP 2019-20 Code Repo
 ---
 
-This example involves building and deploying Java sources. This should be all you need to get started, however there are plenty of resources online for building more advanced java projects should you require.
-
 Download the FRC Plugin in IntelliJ
+
+Need [CTRE Phoenix Framework](http://www.ctr-electronics.com/hro.html#product_tabs_technical_resources).
+
+Need [WPILib Update](https://github.com/wpilibsuite/allwpilib/releases).
+
+For Flashing RoboRIO and getting Driver station, download [NI update](http://www.ni.com/download/first-robotics-software-2017/7904/en/).
+
+[CTRE Java Examples](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java).
