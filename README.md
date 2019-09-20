@@ -10,3 +10,9 @@ Need [WPILib Update](https://github.com/wpilibsuite/allwpilib/releases).
 For Flashing RoboRIO and getting Driver station, download [NI update](http://www.ni.com/download/first-robotics-software-2017/7904/en/).
 
 [CTRE Java Examples](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java).
+
+#### Gradle Run Config:
+
+> Name: Deploy(Gradle)
+> Gradle Project: (Click folder icon and select this project)
+> tasks: deploy
