@@ -5,9 +5,9 @@ import frc.team2019.Robot;
 import frc.team2019.RobotMap;
 
 
-public class TeleopDigger extends Command {
-    public TeleopDigger() {
-        requires(Robot.digger);
+public class TeleopConveyor extends Command {
+    public TeleopConveyor() {
+        requires(Robot.conveyor);
     }
 
 
@@ -27,12 +27,12 @@ public class TeleopDigger extends Command {
      */
     @Override
     protected void execute() {
-        if (Robot.oi.Pilot.getRawButton(RobotMap.DiggerDigForward)) {
-            Robot.digger.run(1);
-        } else if (Robot.oi.Pilot.getRawButton(RobotMap.DiggerDigReverse)) {
-            Robot.digger.run(-1);
+        if (Robot.oi.Pilot.getRawButton(RobotMap.ConveyorForward)) {
+            Robot.conveyor.run(1);
+        } else if (Robot.oi.Pilot.getRawButton(RobotMap.ConveyorReverse)) {
+            Robot.conveyor.run(-1);
         } else {
-            Robot.digger.run(0);
+            Robot.conveyor.run(0);
         }
     }
 

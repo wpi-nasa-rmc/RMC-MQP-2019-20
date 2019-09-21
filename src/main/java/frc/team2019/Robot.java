@@ -4,6 +4,7 @@ import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import frc.team2019.subsystems.Conveyor;
 import frc.team2019.subsystems.Digger;
 import frc.team2019.subsystems.Drivetrain;
 
@@ -23,6 +24,7 @@ public class Robot extends TimedRobot {
     public static OI oi;
     public static Drivetrain drivetrain;
     public static Digger digger;
+    public static Conveyor conveyor;
 
 
     /**
@@ -37,6 +39,7 @@ public class Robot extends TimedRobot {
 
         drivetrain = new Drivetrain();
         digger = new Digger();
+        conveyor = new Conveyor();
 
         RobotMap.Gyro.reset();
     }

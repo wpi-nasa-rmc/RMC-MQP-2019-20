@@ -12,13 +12,13 @@ public class RobotMap {
     public static WPI_TalonSRX rightDrive = new WPI_TalonSRX(2);
     public static final double DeadZone = 0.05;
 
-    // Joystick Button Channel Definition
-    public static final int JoystickButtonChannel0 = 0; // A
-
     // Digger definition
     public static WPI_TalonSRX conveyor = new WPI_TalonSRX(3);
     public static WPI_TalonSRX diggerBucket = new WPI_TalonSRX(4);
     public static WPI_TalonSRX diggerDepth = new WPI_TalonSRX(5);
+
+    // Joystick Button Channel Definition
+    public static final int JoystickButtonChannel0 = 0; // A
     public static final int JoystickButtonChannel1 = 1; // B
     public static final int JoystickButtonChannel2 = 2; // X
     public static final int JoystickAxisChannel2 = 2; // L Trigger (Iffy but does register range above 50%)
@@ -36,6 +36,7 @@ public class RobotMap {
     public static final int JoystickAxisChannel3 = 3; // R Trigger (Again but does register range above 50%)
     public static final int JoystickAxisChannel4 = 4; // R X-Axis
     public static final int JoystickAxisChannel5 = 5; // R Y-Axis
+
     // Pilot Controller
     public static final int DrivetrainAxisForward = JoystickAxisChannel3;
     public static final int DrivetrainAxisBackward = JoystickAxisChannel2;
@@ -43,6 +44,9 @@ public class RobotMap {
     public static final int DrivetrainAxisRotate = JoystickAxisChannel4;
     public static final int DiggerDigForward = JoystickButtonChannel5;
     public static final int DiggerDigReverse = JoystickButtonChannel4;
+    public static final int ConveyorForward = JoystickButtonChannel0;
+    public static final int ConveyorReverse = JoystickButtonChannel1;
+
     // Gyro
     public static NavX Gyro;
 
