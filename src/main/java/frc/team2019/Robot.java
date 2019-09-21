@@ -2,11 +2,10 @@ package frc.team2019;
 
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Scheduler;
-import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import frc.team2019.subsystems.Digger;
 import frc.team2019.subsystems.Drivetrain;
-import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -23,6 +22,7 @@ public class Robot extends TimedRobot {
 
     public static OI oi;
     public static Drivetrain drivetrain;
+    public static Digger digger;
 
 
     /**
@@ -36,6 +36,9 @@ public class Robot extends TimedRobot {
         SmartDashboard.putData("Auto choices", m_chooser);
 
         drivetrain = new Drivetrain();
+        digger = new Digger();
+
+        RobotMap.Gyro.reset();
     }
 
     /**
@@ -66,6 +69,7 @@ public class Robot extends TimedRobot {
         m_autoSelected = m_chooser.getSelected();
         // m_autoSelected = SmartDashboard.getString("Auto Selector", kDefaultAuto);
         System.out.println("Auto selected: " + m_autoSelected);
+        RobotMap.Gyro.reset();
     }
 
     /**

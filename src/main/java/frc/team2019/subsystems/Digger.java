@@ -1,17 +1,21 @@
 package frc.team2019.subsystems;
 
 
+import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 import edu.wpi.first.wpilibj.command.Subsystem;
+import frc.team2019.RobotMap;
+import frc.team2019.commands.teleop.TeleopDigger;
 
 public class Digger extends Subsystem {
 
-    // Put methods for controlling this subsystem
-    // here. Call these from Commands.
-
+    private final WPI_TalonSRX diggerBucket = RobotMap.diggerBucket;
 
     public void initDefaultCommand() {
-        // TODO: Set the default command, if any, for a subsystem here. Example:
-        //    setDefaultCommand(new MySpecialCommand());
+        setDefaultCommand(new TeleopDigger());
+    }
+
+    public void run(int speed) {
+        diggerBucket.set(speed);
     }
 }
 

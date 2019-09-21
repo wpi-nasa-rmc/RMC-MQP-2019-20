@@ -6,10 +6,6 @@ import frc.team2019.RobotMap;
 
 public class TeleOpDrivetrain extends Command {
 
-    private double combineJoystick;
-    private double smoothRotateValue;
-    private double rotateValue;
-
     public TeleOpDrivetrain() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
@@ -35,18 +31,18 @@ public class TeleOpDrivetrain extends Command {
     @Override
     protected void execute() {
         // Easier controlling than straight rotate
-        this.smoothRotateValue = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisLeftandRight) * 0.75;
-        
-        this.combineJoystick = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisForward) + - Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisBackward);
-        this.rotateValue = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisRotate);
+        double smoothRotateValue = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisLeftandRight) * 0.75;
+
+        double combineJoystick = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisForward) + -Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisBackward);
+        double rotateValue = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisRotate);
 
         // Slick touch
-        if (Math.abs(this.smoothRotateValue)> RobotMap.DeadZone ) {
-            Robot.drivetrain.moveArcadeDrive(this.combineJoystick, this.smoothRotateValue, false);
+        if (Math.abs(smoothRotateValue) > RobotMap.DeadZone) {
+            Robot.drivetrain.moveArcadeDrive(combineJoystick, smoothRotateValue, false);
         }
         // Normal touch
         else {
-            Robot.drivetrain.moveArcadeDrive( this.combineJoystick, this.rotateValue,false);
+            Robot.drivetrain.moveArcadeDrive(combineJoystick, rotateValue, false);
         }
     }
 
