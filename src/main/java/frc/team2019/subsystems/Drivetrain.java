@@ -30,8 +30,8 @@ public class Drivetrain extends Subsystem {
         setDefaultCommand(new TeleOpDrivetrain());
     }
 
-    public void moveArcadeDrive(double YmoveValue, double rotateValue, boolean squareinput) {
-        double m_YMoveValue = SqrtValueRetainSign(YmoveValue);
+    public void moveArcadeDrive(double YMoveValue, double rotateValue, boolean squareinput) {
+        double m_YMoveValue = SqrtValueRetainSign(YMoveValue);
         double m_RotateValue = SqrtValueRetainSign(rotateValue);
         m_drive.arcadeDrive(m_YMoveValue, m_RotateValue, squareinput);
     }

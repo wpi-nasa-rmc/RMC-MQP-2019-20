@@ -17,35 +17,30 @@ public class RobotMap {
     public static WPI_TalonSRX diggerDepth = new WPI_TalonSRX(5);
 
     // Joystick Button Channel Definition
-    public static final int JoystickButtonChannel0=0;
-    public static final int JoystickButtonChannel1=1;
-    public static final int JoystickButtonChannel2=2;
-    public static final int JoystickButtonChannel3=3;
-    public static final int JoystickButtonChannel4=4;
-    public static final int JoystickButtonChannel5=5;
-    public static final int JoystickButtonChannel6=6;
-    public static final int JoystickButtonChannel7=7;
-    public static final int JoystickButtonChannel8=8;
+    public static final int JoystickButtonChannel0=0; // A
+    public static final int JoystickButtonChannel1=1; // B
+    public static final int JoystickButtonChannel2=2; // X
+    public static final int JoystickButtonChannel3=3; // Y
+    public static final int JoystickButtonChannel4=4; // Left Bumper
+    public static final int JoystickButtonChannel5=5; // Right Bumper
+    public static final int JoystickButtonChannel6=6; // Select
+    public static final int JoystickButtonChannel7=7; // Start
+    public static final int JoystickButtonChannel8=8; // L3
+    public static final int JoystickButtonChannel9=9; // R3
 
     // Joystick Axis Channel Definition
-    public static final int JoystickAxisChannel0=0;
-    public static final int JoystickAxisChannel1=1;
-    public static final int JoystickAxisChannel2=2;
-    public static final int JoystickAxisChannel3=3;
-    public static final int JoystickAxisChannel4=4;
-    public static final int JoystickAxisChannel5=5;
-    public static final int JoystickAxisChannel6=6;
-    public static final int JoystickAxisChannel7=7;
+    public static final int JoystickAxisChannel0=0; // L X-Axis
+    public static final int JoystickAxisChannel1=1; // L Y-Axis
+    public static final int JoystickAxisChannel2=2; // L Trigger (Iffy but does register range above 50%)
+    public static final int JoystickAxisChannel3=3; // R Trigger (Again but does register range above 50%)
+    public static final int JoystickAxisChannel4=4; // R X-Axis
+    public static final int JoystickAxisChannel5=5; // R Y-Axis
 
     // Pilot Controller
     public static final int DrivetrainAxisForward=JoystickAxisChannel3;
     public static final int DrivetrainAxisBackward=JoystickAxisChannel2;
     public static final int DrivetrainAxisLeftandRight=JoystickAxisChannel0;
     public static final int DrivetrainAxisRotate=JoystickAxisChannel4;
-    public static final int DriverWinchRunOut=JoystickButtonChannel3;
-    public static final int DriverWinchRunIn=JoystickButtonChannel2;
-    public static final int DriverSpeedHigh= JoystickButtonChannel4;
-    public static final int DriverSpeedLow= JoystickButtonChannel1;
 
 
 

@@ -34,15 +34,20 @@ public class TeleOpDrivetrain extends Command {
      */
     @Override
     protected void execute() {
+        // Easier controlling than straight rotate
         this.smoothRotateValue = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisLeftandRight) * 0.75;
         
         this.combineJoystick = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisForward) + - Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisBackward);
         this.rotateValue = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisRotate);
 
         // Slick touch
-        if (Math.abs(this.smoothRotateValue)> RobotMap.DeadZone ) Robot.drivetrain.moveArcadeDrive( this.combineJoystick, this.smoothRotateValue,false);
-            // Normal touch
-        else Robot.drivetrain.moveArcadeDrive( this.combineJoystick, this.rotateValue,false);
+        if (Math.abs(this.smoothRotateValue)> RobotMap.DeadZone ) {
+            Robot.drivetrain.moveArcadeDrive(this.combineJoystick, this.smoothRotateValue, false);
+        }
+        // Normal touch
+        else {
+            Robot.drivetrain.moveArcadeDrive( this.combineJoystick, this.rotateValue,false);
+        }
     }
 
 
