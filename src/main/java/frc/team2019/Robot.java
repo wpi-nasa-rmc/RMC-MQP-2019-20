@@ -39,12 +39,14 @@ public class Robot extends TimedRobot {
         m_chooser.addOption("My Auto", kCustomAuto);
         SmartDashboard.putData("Auto choices", m_chooser);
 
+        oi = new OI();
+
         drivetrain = new Drivetrain();
         digger = new Digger();
         conveyor = new Conveyor();
         diggerDepth = new DepthControl();
 
-        RobotMap.Gyro.reset();
+        //RobotMap.Gyro.reset();
     }
 
     /**
@@ -75,7 +77,7 @@ public class Robot extends TimedRobot {
         m_autoSelected = m_chooser.getSelected();
         // m_autoSelected = SmartDashboard.getString("Auto Selector", kDefaultAuto);
         System.out.println("Auto selected: " + m_autoSelected);
-        RobotMap.Gyro.reset();
+       // RobotMap.Gyro.reset();
     }
 
     /**

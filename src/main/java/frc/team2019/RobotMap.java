@@ -50,7 +50,7 @@ public class RobotMap {
     public static final int DiggerUp = JoystickButtonChannel3;
 
     // Gyro
-    public static NavX Gyro;
+    //public static NavX Gyro;
 
     public static PowerDistributionPanel PDP;
 
@@ -64,6 +64,6 @@ public class RobotMap {
         leftDrive.setNeutralMode(NeutralMode.Brake);
         rightDrive.setNeutralMode(NeutralMode.Brake);
 
-        Gyro = new NavX(SPI.Port.kMXP);
+       // Gyro = new NavX(SPI.Port.kMXP);
     }
 }
