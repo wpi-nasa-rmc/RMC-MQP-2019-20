@@ -8,7 +8,7 @@ import frc.team2019.commands.teleop.TeleopConveyor;
 
 public class Conveyor extends Subsystem {
 
-    private WPI_TalonSRX conveyor = RobotMap.conveyor;
+    private final WPI_TalonSRX conveyor = RobotMap.conveyor;
 
     public void initDefaultCommand() {
         setDefaultCommand(new TeleopConveyor());

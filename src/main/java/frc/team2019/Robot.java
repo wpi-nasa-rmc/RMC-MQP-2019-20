@@ -39,6 +39,8 @@ public class Robot extends TimedRobot {
         m_chooser.addOption("My Auto", kCustomAuto);
         SmartDashboard.putData("Auto choices", m_chooser);
 
+        // Init all Motors
+        RobotMap.init();
         oi = new OI();
 
         drivetrain = new Drivetrain();
@@ -46,7 +48,7 @@ public class Robot extends TimedRobot {
         conveyor = new Conveyor();
         diggerDepth = new DepthControl();
 
-        //RobotMap.Gyro.reset();
+        RobotMap.Gyro.reset();
     }
 
     /**

@@ -1,6 +1,5 @@
 package frc.team2019.subsystems;
 
-
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
@@ -22,10 +21,10 @@ public class Drivetrain extends Subsystem {
         setDefaultCommand(new TeleopDrivetrain());
     }
 
-    public void moveArcadeDrive(double YMoveValue, double rotateValue, boolean squareinput) {
+    public void moveArcadeDrive(double YMoveValue, double rotateValue, boolean squareInput) {
         double m_YMoveValue = SqrtValueRetainSign(YMoveValue);
         double m_RotateValue = SqrtValueRetainSign(rotateValue);
-        m_drive.arcadeDrive(m_YMoveValue, m_RotateValue, squareinput);
+        m_drive.arcadeDrive(m_YMoveValue, m_RotateValue, squareInput);
     }
 
     private static double SqrtValueRetainSign(double num) {
