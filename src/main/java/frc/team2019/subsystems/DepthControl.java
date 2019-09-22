@@ -8,7 +8,7 @@ import frc.team2019.commands.teleop.TeleopDepthControl;
 
 public class DepthControl extends Subsystem {
 
-    private WPI_TalonSRX diggerDepth = RobotMap.diggerDepth;
+    private final WPI_TalonSRX diggerDepth = RobotMap.diggerDepth;
 
     public void initDefaultCommand() {
         setDefaultCommand(new TeleopDepthControl());

@@ -12,10 +12,10 @@ For Flashing RoboRIO and getting Driver station, download [NI update](http://www
 ## Code Examples
 [CTRE Java Examples](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java).
 
-## Gradle Run Config:
+## To Run Robot
+NOTE: *Make sure that the roboRIO is seen by driver station and you are disconnected from WiFi before attempting the steps below.*
 
-> Name: Deploy(Gradle)
-
-> Gradle Project: (Click folder icon and select this project)
-
-> tasks: deploy
+1. In IntelliJ, open the Gradle tab on the right side of the screen.
+2. Navigate to Tasks -> embeddedtools.
+3. Click deploy.
+4. Wait for Gradle to finish.

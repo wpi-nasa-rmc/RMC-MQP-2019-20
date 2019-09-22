@@ -7,9 +7,6 @@ import frc.team2019.RobotMap;
 public class TeleopDrivetrain extends Command {
 
     public TeleopDrivetrain() {
-        // Use requires() here to declare subsystem dependencies
-        // eg. requires(chassis);
-
         requires(Robot.drivetrain);
     }
 
@@ -66,7 +63,6 @@ public class TeleopDrivetrain extends Command {
      */
     @Override
     protected boolean isFinished() {
-        // TODO: Make this return true when this Command no longer needs to run execute()
         return false;
     }
 
