@@ -7,12 +7,12 @@ import edu.wpi.first.wpilibj.SPI;
 
 public class RobotMap {
     // Drive Train definition
-    public static WPI_TalonSRX leftDrive = new WPI_TalonSRX(1);
+    public static WPI_TalonSRX leftDrive = new WPI_TalonSRX(3);
     public static WPI_TalonSRX rightDrive = new WPI_TalonSRX(2);
     public static final double DeadZone = 0.05;
 
     // Digger definition
-    public static WPI_TalonSRX conveyor = new WPI_TalonSRX(3);
+    public static WPI_TalonSRX conveyor = new WPI_TalonSRX(1);
     public static WPI_TalonSRX diggerBucket = new WPI_TalonSRX(4);
     public static WPI_TalonSRX diggerDepth = new WPI_TalonSRX(5);
 
@@ -60,7 +60,9 @@ public class RobotMap {
         /*leftDrive.configSelectedFeedbackSensor(FeedbackDevice.QuadEncoder, 0, 0);
         rightDrive.configSelectedFeedbackSensor(FeedbackDevice.QuadEncoder, 0, 0);*/
 
-        rightDrive.setSensorPhase(true);
+        leftDrive.setSensorPhase(true);
+        leftDrive.setInverted(true);
+        rightDrive.setInverted(true);
         leftDrive.setNeutralMode(NeutralMode.Brake);
         rightDrive.setNeutralMode(NeutralMode.Brake);
 
