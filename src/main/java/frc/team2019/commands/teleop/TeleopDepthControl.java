@@ -1,12 +1,13 @@
 package frc.team2019.commands.teleop;
 
 import edu.wpi.first.wpilibj.command.Command;
+import frc.team2019.Robot;
+import frc.team2019.RobotMap;
 
 
 public class TeleopDepthControl extends Command {
     public TeleopDepthControl() {
-        // Use requires() here to declare subsystem dependencies
-        // eg. requires(chassis);
+        requires(Robot.diggerDepth);
     }
 
 
@@ -26,7 +27,13 @@ public class TeleopDepthControl extends Command {
      */
     @Override
     protected void execute() {
-
+        if (Robot.oi.Pilot.getRawButton(RobotMap.DiggerDown)) {
+            Robot.diggerDepth.run(0.3);
+        } else if (Robot.oi.Pilot.getRawButton(RobotMap.DiggerUp)) {
+            Robot.diggerDepth.run(-0.3);
+        } else {
+            Robot.diggerDepth.run(0);
+        }
     }
 
 
