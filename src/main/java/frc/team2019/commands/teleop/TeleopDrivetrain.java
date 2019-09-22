@@ -4,9 +4,9 @@ import edu.wpi.first.wpilibj.command.Command;
 import frc.team2019.Robot;
 import frc.team2019.RobotMap;
 
-public class TeleOpDrivetrain extends Command {
+public class TeleopDrivetrain extends Command {
 
-    public TeleOpDrivetrain() {
+    public TeleopDrivetrain() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
 

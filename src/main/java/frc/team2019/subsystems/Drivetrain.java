@@ -5,7 +5,7 @@ import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 import frc.team2019.RobotMap;
-import frc.team2019.commands.teleop.TeleOpDrivetrain;
+import frc.team2019.commands.teleop.TeleopDrivetrain;
 
 public class Drivetrain extends Subsystem {
     private final WPI_TalonSRX m_rightDrive = RobotMap.rightDrive;
@@ -19,7 +19,7 @@ public class Drivetrain extends Subsystem {
     }
 
     public void initDefaultCommand() {
-        setDefaultCommand(new TeleOpDrivetrain());
+        setDefaultCommand(new TeleopDrivetrain());
     }
 
     public void moveArcadeDrive(double YMoveValue, double rotateValue, boolean squareinput) {
