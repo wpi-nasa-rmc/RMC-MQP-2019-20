@@ -4,13 +4,10 @@ import edu.wpi.first.wpilibj.command.Command;
 import frc.team2019.Robot;
 import frc.team2019.RobotMap;
 
-public class TeleOpDrivetrain extends Command {
 
-    public TeleOpDrivetrain() {
-        // Use requires() here to declare subsystem dependencies
-        // eg. requires(chassis);
-
-        requires(Robot.drivetrain);
+public class TeleopDepthControl extends Command {
+    public TeleopDepthControl() {
+        requires(Robot.diggerDepth);
     }
 
 
@@ -30,19 +27,12 @@ public class TeleOpDrivetrain extends Command {
      */
     @Override
     protected void execute() {
-        // Easier controlling than straight rotate
-        double smoothRotateValue = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisLeftandRight) * 0.75;
-
-        double combineJoystick = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisForward) + -Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisBackward);
-        double rotateValue = Robot.oi.Pilot.getRawAxis(RobotMap.DrivetrainAxisRotate);
-
-        // Slick touch
-        if (Math.abs(smoothRotateValue) > RobotMap.DeadZone) {
-            Robot.drivetrain.moveArcadeDrive(combineJoystick, smoothRotateValue, false);
-        }
-        // Normal touch
-        else {
-            Robot.drivetrain.moveArcadeDrive(combineJoystick, rotateValue, false);
+        if (Robot.oi.Pilot.getRawButton(RobotMap.DiggerDown)) {
+            Robot.diggerDepth.run(0.3);
+        } else if (Robot.oi.Pilot.getRawButton(RobotMap.DiggerUp)) {
+            Robot.diggerDepth.run(-0.3);
+        } else {
+            Robot.diggerDepth.run(0);
         }
     }
 
