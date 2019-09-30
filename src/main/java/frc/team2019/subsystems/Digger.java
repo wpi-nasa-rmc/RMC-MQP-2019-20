@@ -14,7 +14,7 @@ public class Digger extends Subsystem {
         setDefaultCommand(new TeleopDigger());
     }
 
-    public void run(int speed) {
+    public void run(double speed) {
         diggerBucket.set(speed);
     }
 }

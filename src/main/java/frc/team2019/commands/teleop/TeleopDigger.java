@@ -28,9 +28,9 @@ public class TeleopDigger extends Command {
     @Override
     protected void execute() {
         if (Robot.oi.Pilot.getRawButton(RobotMap.DiggerDigForward)) {
-            Robot.digger.run(1);
+            Robot.digger.run(0.5);
         } else if (Robot.oi.Pilot.getRawButton(RobotMap.DiggerDigReverse)) {
-            Robot.digger.run(-1);
+            Robot.digger.run(-0.5);
         } else {
             Robot.digger.run(0);
         }
