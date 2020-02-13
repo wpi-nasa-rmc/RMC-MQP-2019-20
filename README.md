@@ -1,21 +1,15 @@
-NASA RMC MQP 2019-20 Code Repo
----
-## Necessary Plugins and Frameworks
-Download the FRC Plugin in IntelliJ
+﻿# NASA Lunabotics Competition MQP 2019-20
 
-Need [CTRE Phoenix Framework](http://www.ctr-electronics.com/hro.html#product_tabs_technical_resources).
+## Overview
+We are using three different controllers to run this years Lunabotics Competition. They are detailed below.
 
-Need [WPILib Update](https://github.com/wpilibsuite/allwpilib/releases).
+### Cross the Road Electronics HERO Dev Board
 
-For Flashing RoboRIO and getting Driver station, download [NI update](http://www.ni.com/download/first-robotics-software-2017/7904/en/).
+### Nvidia Jetson Nano
 
-## Code Examples
-[CTRE Java Examples](https://github.com/CrossTheRoadElec/Phoenix-Examples-Languages/tree/master/Java).
+### Raspberry Pi 4 Rev B
 
-## To Run Robot
-NOTE: *Make sure that the roboRIO is seen by driver station and you are disconnected from WiFi before attempting the steps below.*
-
-1. In IntelliJ, open the Gradle tab on the right side of the screen.
-2. Navigate to Tasks -> embeddedtools.
-3. Click deploy.
-4. Wait for Gradle to finish.
+## Credits
+- Kevin Bimonte - Computer Science 
+- Harrison Burack - Computer Science
+- Joseph 'Jack' Hogan - Computer Science
