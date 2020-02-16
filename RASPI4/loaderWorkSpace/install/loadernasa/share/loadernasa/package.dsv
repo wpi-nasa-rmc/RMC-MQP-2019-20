@@ -1,0 +1,6 @@
+source;share/loadernasa/hook/pythonpath.ps1
+source;share/loadernasa/hook/pythonpath.dsv
+source;share/loadernasa/hook/pythonpath.sh
+source;share/loadernasa/hook/ament_prefix_path.ps1
+source;share/loadernasa/hook/ament_prefix_path.dsv
+source;share/loadernasa/hook/ament_prefix_path.sh

@@ -1,0 +1,21 @@
+[2.128s] running egg_info
+[2.128s] writing /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/PKG-INFO
+[2.129s] writing dependency_links to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/dependency_links.txt
+[2.129s] writing entry points to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/entry_points.txt
+[2.130s] writing requirements to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/requires.txt
+[2.131s] writing top-level names to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/top_level.txt
+[2.179s] reading manifest file '/home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[2.181s] writing manifest file '/home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[2.182s] running build
+[2.182s] running build_py
+[2.183s] running install
+[2.183s] running install_lib
+[2.186s] running install_data
+[2.186s] copying package.xml -> /home/nasarmc/loaderWorkSpace/install/loadernasa/share/loadernasa
+[2.188s] running install_egg_info
+[2.192s] removing '/home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info' (and everything under it)
+[2.198s] Copying /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info to /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info
+[2.210s] running install_scripts
+[2.234s] Installing listener script to /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[2.235s] Installing talker script to /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[2.236s] writing list of installed files to '/home/nasarmc/loaderWorkSpace/build/loadernasa/install.log'

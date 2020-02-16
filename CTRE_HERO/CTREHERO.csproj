@@ -13,6 +13,10 @@
     <DeployDevice>Cross Link HERO .NETMF_Mini-USB</DeployDevice>
     <DeployTransport>USB</DeployTransport>
   </PropertyGroup>
+<PropertyGroup>
+   <LangVersion>default</LangVersion>
+</PropertyGroup>
+
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>

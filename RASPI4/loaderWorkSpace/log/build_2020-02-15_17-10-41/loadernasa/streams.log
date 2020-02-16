@@ -1,0 +1,33 @@
+[1.445s] Invoking command in '/home/nasarmc/loaderWorkSpace/src/loadernasa': PYTHONPATH=/home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/nasarmc/loaderWorkSpace/build/loadernasa build --build-base /home/nasarmc/loaderWorkSpace/build/loadernasa/build install --prefix /home/nasarmc/loaderWorkSpace/install/loadernasa --record /home/nasarmc/loaderWorkSpace/build/loadernasa/install.log --single-version-externally-managed
+[1.945s] running egg_info
+[1.945s] creating /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info
+[1.946s] writing /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/PKG-INFO
+[1.947s] writing dependency_links to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/dependency_links.txt
+[1.948s] writing entry points to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/entry_points.txt
+[1.949s] writing requirements to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/requires.txt
+[1.950s] writing top-level names to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/top_level.txt
+[1.958s] writing manifest file '/home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[2.003s] reading manifest file '/home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[2.005s] writing manifest file '/home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[2.006s] running build
+[2.006s] running build_py
+[2.006s] creating /home/nasarmc/loaderWorkSpace/build/loadernasa/build
+[2.006s] creating /home/nasarmc/loaderWorkSpace/build/loadernasa/build/lib
+[2.007s] creating /home/nasarmc/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[2.007s] copying loadernasa/__init__.py -> /home/nasarmc/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[2.008s] running install
+[2.008s] running install_lib
+[2.010s] creating /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa
+[2.010s] copying /home/nasarmc/loaderWorkSpace/build/loadernasa/build/lib/loadernasa/__init__.py -> /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa
+[2.011s] byte-compiling /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa/__init__.py to __init__.cpython-36.pyc
+[2.013s] running install_data
+[2.013s] creating /home/nasarmc/loaderWorkSpace/install/loadernasa/share/ament_index
+[2.014s] creating /home/nasarmc/loaderWorkSpace/install/loadernasa/share/ament_index/resource_index
+[2.014s] creating /home/nasarmc/loaderWorkSpace/install/loadernasa/share/ament_index/resource_index/packages
+[2.014s] copying resource/loadernasa -> /home/nasarmc/loaderWorkSpace/install/loadernasa/share/ament_index/resource_index/packages
+[2.015s] copying package.xml -> /home/nasarmc/loaderWorkSpace/install/loadernasa/share/loadernasa
+[2.016s] running install_egg_info
+[2.019s] Copying /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info to /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info
+[2.037s] running install_scripts
+[2.062s] writing list of installed files to '/home/nasarmc/loaderWorkSpace/build/loadernasa/install.log'
+[2.086s] Invoked command in '/home/nasarmc/loaderWorkSpace/src/loadernasa' returned '0': PYTHONPATH=/home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/nasarmc/loaderWorkSpace/build/loadernasa build --build-base /home/nasarmc/loaderWorkSpace/build/loadernasa/build install --prefix /home/nasarmc/loaderWorkSpace/install/loadernasa --record /home/nasarmc/loaderWorkSpace/build/loadernasa/install.log --single-version-externally-managed

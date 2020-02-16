@@ -1,0 +1,30 @@
+[1.372s] running egg_info
+[1.373s] writing /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/PKG-INFO
+[1.374s] writing dependency_links to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/dependency_links.txt
+[1.375s] writing entry points to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/entry_points.txt
+[1.375s] writing requirements to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/requires.txt
+[1.376s] writing top-level names to /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/top_level.txt
+[1.571s] reading manifest file '/home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[1.577s] writing manifest file '/home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[1.578s] running build
+[1.578s] running build_py
+[1.579s] copying loadernasa/client_member_function.py -> /home/nasarmc/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[1.584s] copying loadernasa/service_member_function.py -> /home/nasarmc/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[1.590s] running install
+[1.591s] running install_lib
+[1.602s] copying /home/nasarmc/loaderWorkSpace/build/loadernasa/build/lib/loadernasa/client_member_function.py -> /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa
+[1.603s] copying /home/nasarmc/loaderWorkSpace/build/loadernasa/build/lib/loadernasa/service_member_function.py -> /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa
+[1.605s] byte-compiling /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa/client_member_function.py to client_member_function.cpython-36.pyc
+[1.608s] byte-compiling /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa/service_member_function.py to service_member_function.cpython-36.pyc
+[1.608s] Sorry: IndentationError: unexpected indent (service_member_function.py, line 11)
+[1.609s] running install_data
+[1.614s] copying package.xml -> /home/nasarmc/loaderWorkSpace/install/loadernasa/share/loadernasa
+[1.616s] running install_egg_info
+[1.634s] removing '/home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info' (and everything under it)
+[1.638s] Copying /home/nasarmc/loaderWorkSpace/build/loadernasa/loadernasa.egg-info to /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info
+[1.656s] running install_scripts
+[1.736s] Installing client script to /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[1.737s] Installing listener script to /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[1.737s] Installing service script to /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[1.738s] Installing talker script to /home/nasarmc/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[1.739s] writing list of installed files to '/home/nasarmc/loaderWorkSpace/build/loadernasa/install.log'

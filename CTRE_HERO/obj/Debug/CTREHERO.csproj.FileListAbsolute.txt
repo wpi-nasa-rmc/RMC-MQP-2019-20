@@ -1,0 +1,18 @@
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\obj\Debug\CTREHERO.csprojAssemblyReference.cache
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\obj\Debug\TinyCLR_DebugReferences.cache
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\le\HERO Serial Example.exe
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\be\HERO Serial Example.exe
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\le\HERO Serial Example.pdb
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\be\HERO Serial Example.pdb
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\HERO Serial Example.exe
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\HERO Serial Example.pdb
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\le\HERO Serial Example.pe
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\le\HERO Serial Example.pdbx
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\be\HERO Serial Example.pe
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\bin\Debug\be\HERO Serial Example.pdbx
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\obj\Debug\be\HERO Serial Example.pe
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\obj\Debug\be\HERO Serial Example.pdbx
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\obj\Debug\le\HERO Serial Example.pe
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\obj\Debug\le\HERO Serial Example.pdbx
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\obj\Debug\HERO Serial Example.exe
+S:\2019-20 (LOADER)\MQP_Code\CTRE_HERO\obj\Debug\HERO Serial Example.pdb
