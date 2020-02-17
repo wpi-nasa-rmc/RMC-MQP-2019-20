@@ -1,0 +1,642 @@
+[0.000000] (-) TimerEvent: {}
+[0.001067] (action_tutorials) JobQueued: {'identifier': 'action_tutorials', 'dependencies': OrderedDict()}
+[0.001368] (loadernasa) JobQueued: {'identifier': 'loadernasa', 'dependencies': OrderedDict()}
+[0.002345] (action_tutorials) JobStarted: {'identifier': 'action_tutorials'}
+[0.058868] (loadernasa) JobStarted: {'identifier': 'loadernasa'}
+[0.104556] (-) TimerEvent: {}
+[0.142576] (action_tutorials) JobProgress: {'identifier': 'action_tutorials', 'progress': 'cmake'}
+[0.145246] (action_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/src/ros2-simple-action', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials'], 'cwd': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/action_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LANGUAGE', 'en'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1822'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/src'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GLADE_MODULE_PATH', ':'), ('MANDATORY_PATH', '/usr/share/gconf/xubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'ubuntu'), ('WINDOWID', '100663299'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/xubuntu.default.path'), ('ROS_VERSION', '2'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en'), ('GLADE_PIXMAP_PATH', ':'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1841,unix/ubuntu:/tmp/.ICE-unix/1841'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/ubuntu/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GLADE_CATALOG_PATH', ':'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ubuntu'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/action_tutorials'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('PYTHONPATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa:/opt/ros/dashing')]), 'shell': False}
+[0.205223] (-) TimerEvent: {}
+[0.306920] (-) TimerEvent: {}
+[0.407753] (-) TimerEvent: {}
+[0.508759] (-) TimerEvent: {}
+[0.609539] (-) TimerEvent: {}
+[0.710305] (-) TimerEvent: {}
+[0.811079] (-) TimerEvent: {}
+[0.911919] (-) TimerEvent: {}
+[1.012675] (-) TimerEvent: {}
+[1.113437] (-) TimerEvent: {}
+[1.210425] (action_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[1.213567] (-) TimerEvent: {}
+[1.314408] (-) TimerEvent: {}
+[1.415178] (-) TimerEvent: {}
+[1.515979] (-) TimerEvent: {}
+[1.616969] (-) TimerEvent: {}
+[1.718764] (-) TimerEvent: {}
+[1.820317] (-) TimerEvent: {}
+[1.921127] (-) TimerEvent: {}
+[1.929445] (action_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[1.958643] (action_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.021349] (-) TimerEvent: {}
+[2.122823] (-) TimerEvent: {}
+[2.224011] (-) TimerEvent: {}
+[2.324924] (-) TimerEvent: {}
+[2.335713] (action_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.341814] (action_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.425122] (-) TimerEvent: {}
+[2.525995] (-) TimerEvent: {}
+[2.626871] (-) TimerEvent: {}
+[2.698831] (action_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.720130] (action_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.727017] (-) TimerEvent: {}
+[2.827848] (-) TimerEvent: {}
+[2.928819] (-) TimerEvent: {}
+[3.030069] (-) TimerEvent: {}
+[3.131791] (-) TimerEvent: {}
+[3.232738] (-) TimerEvent: {}
+[3.333691] (-) TimerEvent: {}
+[3.362595] (loadernasa) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa', 'build', '--build-base', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build', 'install', '--prefix', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa', '--record', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/src/loadernasa', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'LANGUAGE': 'en', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1822', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'OLDPWD': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/src', 'HOME': '/home/ubuntu', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GLADE_MODULE_PATH': ':', 'MANDATORY_PATH': '/usr/share/gconf/xubuntu.mandatory.path', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'ubuntu', 'WINDOWID': '100663299', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/xubuntu.default.path', 'ROS_VERSION': '2', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en', 'GLADE_PIXMAP_PATH': ':', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1841,unix/ubuntu:/tmp/.ICE-unix/1841', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'AMENT_PREFIX_PATH': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa:/opt/ros/dashing', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GLADE_CATALOG_PATH': ':', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ubuntu', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'PYTHONPATH': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages:/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'VTE_VERSION': '5202'}, 'shell': False}
+[3.434025] (-) TimerEvent: {}
+[3.535154] (-) TimerEvent: {}
+[3.636140] (-) TimerEvent: {}
+[3.737087] (-) TimerEvent: {}
+[3.825909] (action_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.837288] (-) TimerEvent: {}
+[3.840150] (action_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.937492] (-) TimerEvent: {}
+[4.038416] (-) TimerEvent: {}
+[4.139344] (-) TimerEvent: {}
+[4.216831] (action_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.219227] (action_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.239487] (-) TimerEvent: {}
+[4.340301] (-) TimerEvent: {}
+[4.441192] (-) TimerEvent: {}
+[4.542098] (-) TimerEvent: {}
+[4.623668] (action_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.641735] (action_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.642563] (-) TimerEvent: {}
+[4.741202] (loadernasa) StdoutLine: {'line': b'running egg_info\n'}
+[4.742680] (-) TimerEvent: {}
+[4.744230] (loadernasa) StdoutLine: {'line': b'writing /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/PKG-INFO\n'}
+[4.745779] (loadernasa) StdoutLine: {'line': b'writing dependency_links to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/dependency_links.txt\n'}
+[4.746972] (loadernasa) StdoutLine: {'line': b'writing entry points to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/entry_points.txt\n'}
+[4.748112] (loadernasa) StdoutLine: {'line': b'writing requirements to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/requires.txt\n'}
+[4.748958] (loadernasa) StdoutLine: {'line': b'writing top-level names to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/top_level.txt\n'}
+[4.842979] (-) TimerEvent: {}
+[4.940132] (loadernasa) StdoutLine: {'line': b"reading manifest file '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'\n"}
+[4.943082] (-) TimerEvent: {}
+[4.949685] (loadernasa) StdoutLine: {'line': b"writing manifest file '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'\n"}
+[4.950995] (loadernasa) StdoutLine: {'line': b'running build\n'}
+[4.951665] (loadernasa) StdoutLine: {'line': b'running build_py\n'}
+[4.959511] (loadernasa) StdoutLine: {'line': b'running install\n'}
+[4.961775] (loadernasa) StdoutLine: {'line': b'running install_lib\n'}
+[4.975770] (loadernasa) StdoutLine: {'line': b'running install_data\n'}
+[4.978420] (loadernasa) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.999333] (loadernasa) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[5.002666] (loadernasa) StdoutLine: {'line': b'Copying /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info\n'}
+[5.012068] (loadernasa) StdoutLine: {'line': b'running install_scripts\n'}
+[5.043341] (-) TimerEvent: {}
+[5.111056] (loadernasa) StdoutLine: {'line': b'Installing client script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[5.112101] (loadernasa) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[5.113130] (loadernasa) StdoutLine: {'line': b'Installing service script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[5.114091] (loadernasa) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[5.118135] (loadernasa) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/install.log'\n"}
+[5.143614] (-) TimerEvent: {}
+[5.235922] (loadernasa) CommandEnded: {'returncode': 0}
+[5.243769] (-) TimerEvent: {}
+[5.322321] (loadernasa) JobEnded: {'identifier': 'loadernasa', 'rc': 0}
+[5.344002] (-) TimerEvent: {}
+[5.444831] (-) TimerEvent: {}
+[5.545760] (-) TimerEvent: {}
+[5.646626] (-) TimerEvent: {}
+[5.747527] (-) TimerEvent: {}
+[5.848431] (-) TimerEvent: {}
+[5.949364] (-) TimerEvent: {}
+[6.050214] (-) TimerEvent: {}
+[6.151079] (-) TimerEvent: {}
+[6.251954] (-) TimerEvent: {}
+[6.311705] (action_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.352143] (-) TimerEvent: {}
+[6.358099] (action_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.4 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[6.452322] (-) TimerEvent: {}
+[6.543449] (action_tutorials) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[6.544393] (action_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.552556] (-) TimerEvent: {}
+[6.653960] (-) TimerEvent: {}
+[6.754804] (-) TimerEvent: {}
+[6.855667] (-) TimerEvent: {}
+[6.956425] (-) TimerEvent: {}
+[7.057140] (-) TimerEvent: {}
+[7.157853] (-) TimerEvent: {}
+[7.258572] (-) TimerEvent: {}
+[7.359277] (-) TimerEvent: {}
+[7.460007] (-) TimerEvent: {}
+[7.560863] (-) TimerEvent: {}
+[7.662060] (-) TimerEvent: {}
+[7.762806] (-) TimerEvent: {}
+[7.806452] (action_tutorials) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[7.863034] (-) TimerEvent: {}
+[7.963810] (-) TimerEvent: {}
+[8.064581] (-) TimerEvent: {}
+[8.165468] (-) TimerEvent: {}
+[8.266652] (-) TimerEvent: {}
+[8.367484] (-) TimerEvent: {}
+[8.468386] (-) TimerEvent: {}
+[8.541042] (action_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[8.568565] (-) TimerEvent: {}
+[8.669323] (-) TimerEvent: {}
+[8.697700] (action_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[8.769542] (-) TimerEvent: {}
+[8.838310] (action_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.8 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[8.869721] (-) TimerEvent: {}
+[8.970520] (-) TimerEvent: {}
+[9.071325] (-) TimerEvent: {}
+[9.172168] (-) TimerEvent: {}
+[9.273016] (-) TimerEvent: {}
+[9.373774] (-) TimerEvent: {}
+[9.453838] (action_tutorials) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[9.473925] (-) TimerEvent: {}
+[9.574668] (-) TimerEvent: {}
+[9.675392] (-) TimerEvent: {}
+[9.776225] (-) TimerEvent: {}
+[9.876991] (-) TimerEvent: {}
+[9.977843] (-) TimerEvent: {}
+[10.078762] (-) TimerEvent: {}
+[10.179763] (-) TimerEvent: {}
+[10.280746] (-) TimerEvent: {}
+[10.362442] (action_tutorials) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[10.380867] (-) TimerEvent: {}
+[10.432257] (action_tutorials) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[10.481042] (-) TimerEvent: {}
+[10.581781] (-) TimerEvent: {}
+[10.682551] (-) TimerEvent: {}
+[10.783341] (-) TimerEvent: {}
+[10.884133] (-) TimerEvent: {}
+[10.984926] (-) TimerEvent: {}
+[11.085687] (-) TimerEvent: {}
+[11.186482] (-) TimerEvent: {}
+[11.287283] (-) TimerEvent: {}
+[11.313715] (action_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[11.387490] (-) TimerEvent: {}
+[11.452618] (action_tutorials) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[11.469683] (action_tutorials) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)\n'}
+[11.487713] (-) TimerEvent: {}
+[11.588695] (-) TimerEvent: {}
+[11.634027] (action_tutorials) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[11.638597] (action_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.641398] (action_tutorials) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[11.642105] (action_tutorials) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so\n'}
+[11.688847] (-) TimerEvent: {}
+[11.760917] (action_tutorials) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.789038] (-) TimerEvent: {}
+[11.889794] (-) TimerEvent: {}
+[11.990562] (-) TimerEvent: {}
+[12.091318] (-) TimerEvent: {}
+[12.192150] (-) TimerEvent: {}
+[12.293057] (-) TimerEvent: {}
+[12.393812] (-) TimerEvent: {}
+[12.494516] (-) TimerEvent: {}
+[12.595264] (-) TimerEvent: {}
+[12.598885] (action_tutorials) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[12.695456] (-) TimerEvent: {}
+[12.796251] (-) TimerEvent: {}
+[12.866249] (action_tutorials) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[12.896410] (-) TimerEvent: {}
+[12.976500] (action_tutorials) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[12.989062] (action_tutorials) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.996557] (-) TimerEvent: {}
+[12.998649] (action_tutorials) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[13.051971] (action_tutorials) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.085434] (action_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.096738] (-) TimerEvent: {}
+[13.197562] (-) TimerEvent: {}
+[13.298322] (-) TimerEvent: {}
+[13.399074] (-) TimerEvent: {}
+[13.499856] (-) TimerEvent: {}
+[13.600616] (-) TimerEvent: {}
+[13.701389] (-) TimerEvent: {}
+[13.716821] (action_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[13.732396] (action_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/action_tutorials\n'}
+[13.754766] (action_tutorials) CommandEnded: {'returncode': 0}
+[13.757729] (action_tutorials) JobProgress: {'identifier': 'action_tutorials', 'progress': 'build'}
+[13.761134] (action_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/action_tutorials', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/action_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LANGUAGE', 'en'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1822'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/src'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GLADE_MODULE_PATH', ':'), ('MANDATORY_PATH', '/usr/share/gconf/xubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'ubuntu'), ('WINDOWID', '100663299'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/xubuntu.default.path'), ('ROS_VERSION', '2'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en'), ('GLADE_PIXMAP_PATH', ':'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1841,unix/ubuntu:/tmp/.ICE-unix/1841'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/ubuntu/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GLADE_CATALOG_PATH', ':'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ubuntu'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/action_tutorials'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('PYTHONPATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa:/opt/ros/dashing')]), 'shell': False}
+[13.801654] (-) TimerEvent: {}
+[13.902650] (-) TimerEvent: {}
+[13.964955] (action_tutorials) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.965882] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__cpp\x1b[0m\n'}
+[14.002862] (-) TimerEvent: {}
+[14.017110] (action_tutorials) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.103070] (-) TimerEvent: {}
+[14.203993] (-) TimerEvent: {}
+[14.304795] (-) TimerEvent: {}
+[14.405621] (-) TimerEvent: {}
+[14.506401] (-) TimerEvent: {}
+[14.607204] (-) TimerEvent: {}
+[14.708126] (-) TimerEvent: {}
+[14.808981] (-) TimerEvent: {}
+[14.909905] (-) TimerEvent: {}
+[15.010789] (-) TimerEvent: {}
+[15.111623] (-) TimerEvent: {}
+[15.212378] (-) TimerEvent: {}
+[15.313075] (-) TimerEvent: {}
+[15.413796] (-) TimerEvent: {}
+[15.514514] (-) TimerEvent: {}
+[15.615207] (-) TimerEvent: {}
+[15.715944] (-) TimerEvent: {}
+[15.816643] (-) TimerEvent: {}
+[15.917357] (-) TimerEvent: {}
+[16.018078] (-) TimerEvent: {}
+[16.118807] (-) TimerEvent: {}
+[16.219600] (-) TimerEvent: {}
+[16.320339] (-) TimerEvent: {}
+[16.421244] (-) TimerEvent: {}
+[16.522486] (-) TimerEvent: {}
+[16.561414] (action_tutorials) StdoutLine: {'line': b'[  6%] Built target action_tutorials__cpp\n'}
+[16.619923] (action_tutorials) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.620965] (action_tutorials) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.622697] (-) TimerEvent: {}
+[16.723725] (-) TimerEvent: {}
+[16.824678] (-) TimerEvent: {}
+[16.925868] (-) TimerEvent: {}
+[17.027002] (-) TimerEvent: {}
+[17.088877] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_generator_c\x1b[0m\n'}
+[17.127206] (-) TimerEvent: {}
+[17.166915] (action_tutorials) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials/action/fibonacci__functions.c.o\x1b[0m\n'}
+[17.227447] (-) TimerEvent: {}
+[17.328611] (-) TimerEvent: {}
+[17.429534] (-) TimerEvent: {}
+[17.530609] (-) TimerEvent: {}
+[17.631619] (-) TimerEvent: {}
+[17.667430] (action_tutorials) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials__rosidl_generator_c.so\x1b[0m\n'}
+[17.731770] (-) TimerEvent: {}
+[17.832581] (-) TimerEvent: {}
+[17.897864] (action_tutorials) StdoutLine: {'line': b'[ 20%] Built target action_tutorials__rosidl_generator_c\n'}
+[17.932776] (-) TimerEvent: {}
+[17.950380] (action_tutorials) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[18.033047] (-) TimerEvent: {}
+[18.134122] (-) TimerEvent: {}
+[18.235472] (-) TimerEvent: {}
+[18.336437] (-) TimerEvent: {}
+[18.437846] (-) TimerEvent: {}
+[18.538945] (-) TimerEvent: {}
+[18.639911] (-) TimerEvent: {}
+[18.740816] (-) TimerEvent: {}
+[18.841992] (-) TimerEvent: {}
+[18.942898] (-) TimerEvent: {}
+[19.044062] (-) TimerEvent: {}
+[19.067657] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[19.144258] (-) TimerEvent: {}
+[19.176064] (action_tutorials) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[19.244447] (-) TimerEvent: {}
+[19.345383] (-) TimerEvent: {}
+[19.446532] (-) TimerEvent: {}
+[19.547480] (-) TimerEvent: {}
+[19.645404] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[19.647683] (-) TimerEvent: {}
+[19.748742] (-) TimerEvent: {}
+[19.789525] (action_tutorials) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials/action/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[19.848898] (-) TimerEvent: {}
+[19.950236] (-) TimerEvent: {}
+[20.076214] (-) TimerEvent: {}
+[20.179855] (-) TimerEvent: {}
+[20.280893] (-) TimerEvent: {}
+[20.381792] (-) TimerEvent: {}
+[20.483742] (-) TimerEvent: {}
+[20.585356] (-) TimerEvent: {}
+[20.641681] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[20.685627] (-) TimerEvent: {}
+[20.737387] (action_tutorials) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials/action/fibonacci__type_support.c.o\x1b[0m\n'}
+[20.785977] (-) TimerEvent: {}
+[20.887846] (-) TimerEvent: {}
+[20.991906] (-) TimerEvent: {}
+[21.059911] (action_tutorials) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.092249] (-) TimerEvent: {}
+[21.179390] (action_tutorials) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[21.192557] (-) TimerEvent: {}
+[21.261059] (action_tutorials) StdoutLine: {'line': b'[ 41%] Built target action_tutorials__rosidl_typesupport_introspection_c\n'}
+[21.292770] (-) TimerEvent: {}
+[21.393826] (-) TimerEvent: {}
+[21.494857] (-) TimerEvent: {}
+[21.530453] (action_tutorials) StdoutLine: {'line': b'[ 41%] Built target action_tutorials__rosidl_typesupport_introspection_cpp\n'}
+[21.595082] (-) TimerEvent: {}
+[21.696095] (-) TimerEvent: {}
+[21.796976] (-) TimerEvent: {}
+[21.897852] (-) TimerEvent: {}
+[21.998680] (-) TimerEvent: {}
+[22.099524] (-) TimerEvent: {}
+[22.200340] (-) TimerEvent: {}
+[22.301219] (-) TimerEvent: {}
+[22.402083] (-) TimerEvent: {}
+[22.476740] (action_tutorials) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[22.502296] (-) TimerEvent: {}
+[22.603235] (-) TimerEvent: {}
+[22.704432] (-) TimerEvent: {}
+[22.805391] (-) TimerEvent: {}
+[22.839912] (action_tutorials) StdoutLine: {'line': b'[ 44%] Built target action_tutorials__rosidl_typesupport_fastrtps_cpp\n'}
+[22.905628] (-) TimerEvent: {}
+[22.917522] (action_tutorials) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[22.918726] (action_tutorials) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[23.005807] (-) TimerEvent: {}
+[23.106669] (-) TimerEvent: {}
+[23.207644] (-) TimerEvent: {}
+[23.308640] (-) TimerEvent: {}
+[23.409501] (-) TimerEvent: {}
+[23.510294] (-) TimerEvent: {}
+[23.611137] (-) TimerEvent: {}
+[23.711996] (-) TimerEvent: {}
+[23.812792] (-) TimerEvent: {}
+[23.913564] (-) TimerEvent: {}
+[24.014355] (-) TimerEvent: {}
+[24.115109] (-) TimerEvent: {}
+[24.215943] (-) TimerEvent: {}
+[24.316638] (-) TimerEvent: {}
+[24.417367] (-) TimerEvent: {}
+[24.518086] (-) TimerEvent: {}
+[24.618802] (-) TimerEvent: {}
+[24.719677] (-) TimerEvent: {}
+[24.820844] (-) TimerEvent: {}
+[24.835398] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_cpp\x1b[0m\n'}
+[24.921057] (-) TimerEvent: {}
+[24.928064] (action_tutorials) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[25.021236] (-) TimerEvent: {}
+[25.121997] (-) TimerEvent: {}
+[25.222780] (-) TimerEvent: {}
+[25.323666] (-) TimerEvent: {}
+[25.424487] (-) TimerEvent: {}
+[25.525383] (-) TimerEvent: {}
+[25.626642] (-) TimerEvent: {}
+[25.635989] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[25.726843] (-) TimerEvent: {}
+[25.752755] (action_tutorials) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials/action/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[25.827080] (-) TimerEvent: {}
+[25.928040] (-) TimerEvent: {}
+[26.029039] (-) TimerEvent: {}
+[26.129983] (-) TimerEvent: {}
+[26.230992] (-) TimerEvent: {}
+[26.332086] (-) TimerEvent: {}
+[26.433181] (-) TimerEvent: {}
+[26.534445] (-) TimerEvent: {}
+[26.635468] (-) TimerEvent: {}
+[26.736532] (-) TimerEvent: {}
+[26.837521] (-) TimerEvent: {}
+[26.938542] (-) TimerEvent: {}
+[27.039547] (-) TimerEvent: {}
+[27.082999] (action_tutorials) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[27.139836] (-) TimerEvent: {}
+[27.240920] (-) TimerEvent: {}
+[27.341995] (-) TimerEvent: {}
+[27.443282] (-) TimerEvent: {}
+[27.544503] (-) TimerEvent: {}
+[27.553505] (action_tutorials) StdoutLine: {'line': b'[ 62%] Built target action_tutorials__rosidl_typesupport_cpp\n'}
+[27.644677] (-) TimerEvent: {}
+[27.745603] (-) TimerEvent: {}
+[27.845406] (action_tutorials) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[27.846169] (-) TimerEvent: {}
+[27.946911] (-) TimerEvent: {}
+[28.047983] (-) TimerEvent: {}
+[28.149269] (-) TimerEvent: {}
+[28.250122] (-) TimerEvent: {}
+[28.259835] (action_tutorials) StdoutLine: {'line': b'[ 65%] Built target action_tutorials__rosidl_typesupport_fastrtps_c\n'}
+[28.321167] (action_tutorials) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[28.350274] (-) TimerEvent: {}
+[28.451013] (-) TimerEvent: {}
+[28.551876] (-) TimerEvent: {}
+[28.652742] (-) TimerEvent: {}
+[28.753478] (-) TimerEvent: {}
+[28.854260] (-) TimerEvent: {}
+[28.955193] (-) TimerEvent: {}
+[29.056133] (-) TimerEvent: {}
+[29.156886] (-) TimerEvent: {}
+[29.257643] (-) TimerEvent: {}
+[29.358423] (-) TimerEvent: {}
+[29.459163] (-) TimerEvent: {}
+[29.559889] (-) TimerEvent: {}
+[29.660580] (-) TimerEvent: {}
+[29.761275] (-) TimerEvent: {}
+[29.862010] (-) TimerEvent: {}
+[29.963021] (-) TimerEvent: {}
+[30.064266] (-) TimerEvent: {}
+[30.077676] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_c\x1b[0m\n'}
+[30.154238] (action_tutorials) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[30.164476] (-) TimerEvent: {}
+[30.265222] (-) TimerEvent: {}
+[30.366064] (-) TimerEvent: {}
+[30.370852] (action_tutorials) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials__rosidl_typesupport_c.so\x1b[0m\n'}
+[30.466314] (-) TimerEvent: {}
+[30.567333] (-) TimerEvent: {}
+[30.629358] (action_tutorials) StdoutLine: {'line': b'[ 75%] Built target action_tutorials__rosidl_typesupport_c\n'}
+[30.667533] (-) TimerEvent: {}
+[30.674084] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials\x1b[0m\n'}
+[30.738580] (action_tutorials) StdoutLine: {'line': b'[ 75%] Built target action_tutorials\n'}
+[30.767852] (-) TimerEvent: {}
+[30.791258] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__py\x1b[0m\n'}
+[30.847920] (action_tutorials) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[30.867981] (-) TimerEvent: {}
+[30.968793] (-) TimerEvent: {}
+[31.069568] (-) TimerEvent: {}
+[31.170363] (-) TimerEvent: {}
+[31.271110] (-) TimerEvent: {}
+[31.371872] (-) TimerEvent: {}
+[31.472691] (-) TimerEvent: {}
+[31.573482] (-) TimerEvent: {}
+[31.674269] (-) TimerEvent: {}
+[31.775031] (-) TimerEvent: {}
+[31.875778] (-) TimerEvent: {}
+[31.976477] (-) TimerEvent: {}
+[32.077204] (-) TimerEvent: {}
+[32.177889] (-) TimerEvent: {}
+[32.278680] (-) TimerEvent: {}
+[32.379984] (-) TimerEvent: {}
+[32.480702] (-) TimerEvent: {}
+[32.581520] (-) TimerEvent: {}
+[32.682348] (-) TimerEvent: {}
+[32.783062] (-) TimerEvent: {}
+[32.883836] (-) TimerEvent: {}
+[32.984534] (-) TimerEvent: {}
+[33.085236] (-) TimerEvent: {}
+[33.185944] (-) TimerEvent: {}
+[33.286638] (-) TimerEvent: {}
+[33.387344] (-) TimerEvent: {}
+[33.488072] (-) TimerEvent: {}
+[33.588796] (-) TimerEvent: {}
+[33.689487] (-) TimerEvent: {}
+[33.790180] (-) TimerEvent: {}
+[33.890869] (-) TimerEvent: {}
+[33.991587] (-) TimerEvent: {}
+[34.092281] (-) TimerEvent: {}
+[34.192990] (-) TimerEvent: {}
+[34.293691] (-) TimerEvent: {}
+[34.394388] (-) TimerEvent: {}
+[34.495079] (-) TimerEvent: {}
+[34.595815] (-) TimerEvent: {}
+[34.696509] (-) TimerEvent: {}
+[34.797215] (-) TimerEvent: {}
+[34.897915] (-) TimerEvent: {}
+[34.998626] (-) TimerEvent: {}
+[35.099332] (-) TimerEvent: {}
+[35.200257] (-) TimerEvent: {}
+[35.300950] (-) TimerEvent: {}
+[35.401668] (-) TimerEvent: {}
+[35.502344] (-) TimerEvent: {}
+[35.603065] (-) TimerEvent: {}
+[35.703808] (-) TimerEvent: {}
+[35.804541] (-) TimerEvent: {}
+[35.905346] (-) TimerEvent: {}
+[36.006062] (-) TimerEvent: {}
+[36.106773] (-) TimerEvent: {}
+[36.207465] (-) TimerEvent: {}
+[36.308378] (-) TimerEvent: {}
+[36.409806] (-) TimerEvent: {}
+[36.488542] (action_tutorials) StdoutLine: {'line': b'[ 79%] Built target action_tutorials__py\n'}
+[36.510026] (-) TimerEvent: {}
+[36.534898] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__python\x1b[0m\n'}
+[36.610320] (-) TimerEvent: {}
+[36.711606] (-) TimerEvent: {}
+[36.740263] (action_tutorials) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__python.dir/rosidl_generator_py/action_tutorials/action/_fibonacci_s.c.o\x1b[0m\n'}
+[36.811794] (-) TimerEvent: {}
+[36.912652] (-) TimerEvent: {}
+[37.013501] (-) TimerEvent: {}
+[37.114341] (-) TimerEvent: {}
+[37.215201] (-) TimerEvent: {}
+[37.316072] (-) TimerEvent: {}
+[37.416952] (-) TimerEvent: {}
+[37.492433] (action_tutorials) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials/libaction_tutorials__python.so\x1b[0m\n'}
+[37.517138] (-) TimerEvent: {}
+[37.618068] (-) TimerEvent: {}
+[37.719330] (-) TimerEvent: {}
+[37.820337] (-) TimerEvent: {}
+[37.821134] (action_tutorials) StdoutLine: {'line': b'[ 86%] Built target action_tutorials__python\n'}
+[37.878204] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[37.879002] (action_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_tutorials__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[37.920514] (-) TimerEvent: {}
+[37.988926] (action_tutorials) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[37.995312] (action_tutorials) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/action_tutorials__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials/_action_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[38.021928] (-) TimerEvent: {}
+[38.123241] (-) TimerEvent: {}
+[38.224868] (-) TimerEvent: {}
+[38.326897] (-) TimerEvent: {}
+[38.427994] (-) TimerEvent: {}
+[38.529365] (-) TimerEvent: {}
+[38.585719] (action_tutorials) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[38.610760] (action_tutorials) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[38.629563] (-) TimerEvent: {}
+[38.730828] (-) TimerEvent: {}
+[38.832479] (-) TimerEvent: {}
+[38.934361] (-) TimerEvent: {}
+[39.035660] (-) TimerEvent: {}
+[39.115829] (action_tutorials) StdoutLine: {'line': b'[100%] Built target action_tutorials__rosidl_typesupport_c__pyext\n'}
+[39.135793] (-) TimerEvent: {}
+[39.141417] (action_tutorials) StdoutLine: {'line': b'[100%] Built target action_tutorials__rosidl_typesupport_fastrtps_c__pyext\n'}
+[39.194077] (action_tutorials) CommandEnded: {'returncode': 0}
+[39.236098] (-) TimerEvent: {}
+[39.337164] (-) TimerEvent: {}
+[39.437988] (-) TimerEvent: {}
+[39.522332] (action_tutorials) JobProgress: {'identifier': 'action_tutorials', 'progress': 'install'}
+[39.538369] (-) TimerEvent: {}
+[39.570027] (action_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/action_tutorials', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/action_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LANGUAGE', 'en'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1822'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/src'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'xubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GLADE_MODULE_PATH', ':'), ('MANDATORY_PATH', '/usr/share/gconf/xubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'ubuntu'), ('WINDOWID', '100663299'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/xubuntu.default.path'), ('ROS_VERSION', '2'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en'), ('GLADE_PIXMAP_PATH', ':'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1841,unix/ubuntu:/tmp/.ICE-unix/1841'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/ubuntu/.Xauthority'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GLADE_CATALOG_PATH', ':'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ubuntu'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/action_tutorials'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/share/xubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('PYTHONPATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa:/opt/ros/dashing')]), 'shell': False}
+[39.638674] (-) TimerEvent: {}
+[39.739739] (-) TimerEvent: {}
+[39.831263] (action_tutorials) StdoutLine: {'line': b'[  3%] Built target action_tutorials__cpp\n'}
+[39.840002] (-) TimerEvent: {}
+[39.842501] (action_tutorials) StdoutLine: {'line': b'[ 13%] Built target action_tutorials__rosidl_generator_c\n'}
+[39.940220] (-) TimerEvent: {}
+[39.958653] (action_tutorials) StdoutLine: {'line': b'[ 24%] Built target action_tutorials__rosidl_typesupport_introspection_cpp\n'}
+[39.967439] (action_tutorials) StdoutLine: {'line': b'[ 34%] Built target action_tutorials__rosidl_typesupport_introspection_c\n'}
+[40.004624] (action_tutorials) StdoutLine: {'line': b'[ 44%] Built target action_tutorials__rosidl_typesupport_fastrtps_cpp\n'}
+[40.040461] (-) TimerEvent: {}
+[40.141419] (-) TimerEvent: {}
+[40.158476] (action_tutorials) StdoutLine: {'line': b'[ 65%] Built target action_tutorials__rosidl_typesupport_fastrtps_c\n'}
+[40.159519] (action_tutorials) StdoutLine: {'line': b'[ 65%] Built target action_tutorials__rosidl_typesupport_cpp\n'}
+[40.241636] (-) TimerEvent: {}
+[40.314169] (action_tutorials) StdoutLine: {'line': b'[ 75%] Built target action_tutorials__rosidl_typesupport_c\n'}
+[40.341844] (-) TimerEvent: {}
+[40.413138] (action_tutorials) StdoutLine: {'line': b'[ 75%] Built target action_tutorials\n'}
+[40.442053] (-) TimerEvent: {}
+[40.515435] (action_tutorials) StdoutLine: {'line': b'[ 79%] Built target action_tutorials__py\n'}
+[40.542281] (-) TimerEvent: {}
+[40.643165] (-) TimerEvent: {}
+[40.656124] (action_tutorials) StdoutLine: {'line': b'[ 86%] Built target action_tutorials__python\n'}
+[40.743377] (-) TimerEvent: {}
+[40.819867] (action_tutorials) StdoutLine: {'line': b'[100%] Built target action_tutorials__rosidl_typesupport_c__pyext\n'}
+[40.820881] (action_tutorials) StdoutLine: {'line': b'[100%] Built target action_tutorials__rosidl_typesupport_fastrtps_c__pyext\n'}
+[40.843661] (-) TimerEvent: {}
+[40.910544] (action_tutorials) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[40.943805] (-) TimerEvent: {}
+[40.950410] (action_tutorials) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.951960] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/ament_index/resource_index/rosidl_interfaces/action_tutorials\n'}
+[40.953725] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_c.so\n'}
+[40.955895] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_c.so" to ""\n'}
+[40.956801] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/environment/library_path.sh\n'}
+[40.958094] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_cpp.so\n'}
+[40.960277] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_cpp.so" to ""\n'}
+[40.960949] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials\n'}
+[40.961498] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action\n'}
+[40.962066] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[40.962983] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/msg\n'}
+[40.963712] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[40.965168] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_c.so\n'}
+[40.967449] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[40.968120] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials\n'}
+[40.968709] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action\n'}
+[40.969157] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci.h\n'}
+[40.969683] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__functions.h\n'}
+[40.970677] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__type_support.h\n'}
+[40.971803] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__functions.c\n'}
+[40.973049] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__struct.h\n'}
+[40.973971] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/msg\n'}
+[40.974559] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/msg/rosidl_generator_c__visibility_control.h\n'}
+[40.975895] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_generator_c.so\n'}
+[40.977994] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_generator_c.so" to ""\n'}
+[40.978611] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials\n'}
+[40.979128] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action\n'}
+[40.979748] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[40.980364] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/dds_fastrtps\n'}
+[40.981021] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/msg\n'}
+[40.981535] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[40.982982] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so\n'}
+[40.987871] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[40.992878] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials\n'}
+[40.996193] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action\n'}
+[40.996944] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__struct.hpp\n'}
+[40.997665] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__traits.hpp\n'}
+[40.998152] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci.hpp\n'}
+[40.998563] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials\n'}
+[40.999101] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action\n'}
+[40.999516] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__type_support.c\n'}
+[41.000092] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[41.000668] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/msg\n'}
+[41.001095] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[41.001690] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_c.so\n'}
+[41.003873] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_c.so" to ""\n'}
+[41.004511] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials\n'}
+[41.005083] (action_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action\n'}
+[41.005531] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__type_support.cpp\n'}
+[41.006289] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/include/action_tutorials/action/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[41.007862] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_cpp.so\n'}
+[41.010326] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[41.010950] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/environment/pythonpath.sh\n'}
+[41.012423] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/__init__.py\n'}
+[41.043955] (-) TimerEvent: {}
+[41.144732] (-) TimerEvent: {}
+[41.178653] (action_tutorials) StdoutLine: {'line': b"Compiling '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/__init__.py'...\n"}
+[41.212144] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action\n'}
+[41.212911] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action/_fibonacci.py\n'}
+[41.214105] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action/_fibonacci_s.c\n'}
+[41.215216] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action/__init__.py\n'}
+[41.217018] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[41.219817] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[41.220843] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[41.223857] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages/action_tutorials/action_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[41.224517] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__python.so\n'}
+[41.226718] (action_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/libaction_tutorials__python.so" to ""\n'}
+[41.227459] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/action/Fibonacci.idl\n'}
+[41.228714] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/action/Fibonacci.action\n'}
+[41.230184] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/ament_index/resource_index/package_run_dependencies/action_tutorials\n'}
+[41.231771] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/ament_index/resource_index/parent_prefix_path/action_tutorials\n'}
+[41.232926] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/environment/ament_prefix_path.sh\n'}
+[41.234008] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/environment/path.sh\n'}
+[41.235049] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/local_setup.bash\n'}
+[41.236184] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/local_setup.sh\n'}
+[41.237248] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/local_setup.zsh\n'}
+[41.238669] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/ament_index/resource_index/packages/action_tutorials\n'}
+[41.240101] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/cmake/rosidl_cmake-extras.cmake\n'}
+[41.241222] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[41.242422] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[41.243733] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[41.244832] (-) TimerEvent: {}
+[41.245441] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig.cmake\n'}
+[41.246076] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/cmake/action_tutorialsConfig-version.cmake\n'}
+[41.247085] (action_tutorials) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/share/action_tutorials/package.xml\n'}
+[41.258508] (action_tutorials) CommandEnded: {'returncode': 0}
+[41.331694] (action_tutorials) JobEnded: {'identifier': 'action_tutorials', 'rc': 0}
+[41.336391] (-) EventReactorShutdown: {}

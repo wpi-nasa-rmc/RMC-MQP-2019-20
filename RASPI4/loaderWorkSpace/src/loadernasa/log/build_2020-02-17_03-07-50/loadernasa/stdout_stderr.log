@@ -1,0 +1,16 @@
+[1.549s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 92, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build
+    setup_py_data = get_setup_data(self.context.pkg, env)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data
+    return dict(pkg.metadata[key](env))
+  File "/usr/lib/python3/dist-packages/colcon_ros/package_identification/ros.py", line 130, in getter
+    str(desc.path / 'setup.py'), env)
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 209, in get_setup_arguments_with_context
+    cmd, stdout=subprocess.PIPE, env=env, check=True)
+  File "/usr/lib/python3.6/subprocess.py", line 438, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-c', "import sys;sys.path.insert(0, '/usr/lib/python3');from colcon_python_setup_py.package_identification.python_setup_py import get_setup_arguments;output = repr(get_setup_arguments('setup.py'));sys.stdout.buffer.write(output.encode('utf-8'))"]' returned non-zero exit status 1.

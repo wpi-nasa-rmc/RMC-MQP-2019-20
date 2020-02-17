@@ -1,0 +1,21 @@
+[0.000000] (-) TimerEvent: {}
+[0.001175] (loadernasa) JobQueued: {'identifier': 'loadernasa', 'dependencies': OrderedDict()}
+[0.002291] (loadernasa) JobStarted: {'identifier': 'loadernasa'}
+[0.099045] (-) TimerEvent: {}
+[0.200078] (-) TimerEvent: {}
+[0.300883] (-) TimerEvent: {}
+[0.401618] (-) TimerEvent: {}
+[0.502305] (-) TimerEvent: {}
+[0.603013] (-) TimerEvent: {}
+[0.703707] (-) TimerEvent: {}
+[0.804409] (-) TimerEvent: {}
+[0.905101] (-) TimerEvent: {}
+[1.005785] (-) TimerEvent: {}
+[1.106504] (-) TimerEvent: {}
+[1.207265] (-) TimerEvent: {}
+[1.308038] (-) TimerEvent: {}
+[1.408885] (-) TimerEvent: {}
+[1.509738] (-) TimerEvent: {}
+[1.548125] (loadernasa) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 92, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_identification/ros.py", line 130, in getter\n    str(desc.path / \'setup.py\'), env)\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 209, in get_setup_arguments_with_context\n    cmd, stdout=subprocess.PIPE, env=env, check=True)\n  File "/usr/lib/python3.6/subprocess.py", line 438, in run\n    output=stdout, stderr=stderr)\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', "import sys;sys.path.insert(0, \'/usr/lib/python3\');from colcon_python_setup_py.package_identification.python_setup_py import get_setup_arguments;output = repr(get_setup_arguments(\'setup.py\'));sys.stdout.buffer.write(output.encode(\'utf-8\'))"]\' returned non-zero exit status 1.\n'}
+[1.555235] (loadernasa) JobEnded: {'identifier': 'loadernasa', 'rc': 1}
+[1.563019] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[3.957s] running egg_info
+[3.960s] creating /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info
+[3.961s] writing /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/PKG-INFO
+[3.962s] writing dependency_links to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/dependency_links.txt
+[3.963s] writing entry points to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/entry_points.txt
+[3.963s] writing requirements to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/requires.txt
+[3.964s] writing top-level names to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/top_level.txt
+[3.965s] writing manifest file '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[4.163s] reading manifest file '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[4.169s] writing manifest file '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'
+[4.170s] running build
+[4.170s] running build_py
+[4.171s] creating /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build
+[4.173s] creating /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib
+[4.182s] creating /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[4.183s] copying loadernasa/publisher_member_function.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[4.184s] copying loadernasa/subscriber_member_function.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[4.184s] copying loadernasa/client_member_function.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[4.185s] copying loadernasa/__init__.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[4.185s] copying loadernasa/service_member_function.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa
+[4.186s] running install
+[4.186s] running install_lib
+[4.197s] running install_data
+[4.202s] running install_egg_info
+[4.213s] removing '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info' (and everything under it)
+[4.215s] Copying /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info
+[4.221s] running install_scripts
+[4.326s] Installing client script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[4.326s] Installing listener script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[4.327s] Installing service script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[4.328s] Installing talker script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa
+[4.330s] writing list of installed files to '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/install.log'

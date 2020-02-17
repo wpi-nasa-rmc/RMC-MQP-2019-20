@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.001082] (loadernasa) JobQueued: {'identifier': 'loadernasa', 'dependencies': OrderedDict()}
+[0.002196] (loadernasa) JobStarted: {'identifier': 'loadernasa'}
+[0.099362] (-) TimerEvent: {}
+[0.200656] (-) TimerEvent: {}
+[0.301485] (-) TimerEvent: {}
+[0.402232] (-) TimerEvent: {}
+[0.503009] (-) TimerEvent: {}
+[0.603719] (-) TimerEvent: {}
+[0.704417] (-) TimerEvent: {}
+[0.805132] (-) TimerEvent: {}
+[0.905868] (-) TimerEvent: {}
+[1.006563] (-) TimerEvent: {}
+[1.107277] (-) TimerEvent: {}
+[1.208031] (-) TimerEvent: {}
+[1.308819] (-) TimerEvent: {}
+[1.409716] (-) TimerEvent: {}
+[1.511179] (-) TimerEvent: {}
+[1.612216] (-) TimerEvent: {}
+[1.713297] (-) TimerEvent: {}
+[1.814050] (-) TimerEvent: {}
+[1.914909] (-) TimerEvent: {}
+[2.015666] (-) TimerEvent: {}
+[2.116385] (-) TimerEvent: {}
+[2.217135] (-) TimerEvent: {}
+[2.317842] (-) TimerEvent: {}
+[2.418546] (-) TimerEvent: {}
+[2.519300] (-) TimerEvent: {}
+[2.620215] (-) TimerEvent: {}
+[2.721150] (-) TimerEvent: {}
+[2.822032] (-) TimerEvent: {}
+[2.886464] (loadernasa) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa', 'build', '--build-base', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build', 'install', '--prefix', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa', '--record', '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/src/loadernasa', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'LANGUAGE': 'en', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1822', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib', 'SHLVL': '1', 'OLDPWD': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/src', 'HOME': '/home/ubuntu', 'DESKTOP_SESSION': 'xubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GLADE_MODULE_PATH': ':', 'MANDATORY_PATH': '/usr/share/gconf/xubuntu.mandatory.path', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install', 'ROS_DISTRO': 'dashing', 'LOGNAME': 'ubuntu', 'WINDOWID': '88080387', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/xubuntu.default.path', 'ROS_VERSION': '2', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en', 'GLADE_PIXMAP_PATH': ':', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1841,unix/ubuntu:/tmp/.ICE-unix/1841', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'DISPLAY': ':0.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'AMENT_PREFIX_PATH': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa:/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials:/opt/ros/dashing', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GLADE_CATALOG_PATH': ':', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ubuntu', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/share/xubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'PYTHONPATH': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages:/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages:/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/action_tutorials'}, 'shell': False}
+[2.922220] (-) TimerEvent: {}
+[3.023124] (-) TimerEvent: {}
+[3.123930] (-) TimerEvent: {}
+[3.224746] (-) TimerEvent: {}
+[3.325471] (-) TimerEvent: {}
+[3.426199] (-) TimerEvent: {}
+[3.526998] (-) TimerEvent: {}
+[3.627715] (-) TimerEvent: {}
+[3.728427] (-) TimerEvent: {}
+[3.829215] (-) TimerEvent: {}
+[3.929961] (-) TimerEvent: {}
+[4.030694] (-) TimerEvent: {}
+[4.038365] (loadernasa) StdoutLine: {'line': b'running egg_info\n'}
+[4.041004] (loadernasa) StdoutLine: {'line': b'writing /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/PKG-INFO\n'}
+[4.043545] (loadernasa) StdoutLine: {'line': b'writing dependency_links to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/dependency_links.txt\n'}
+[4.044936] (loadernasa) StdoutLine: {'line': b'writing entry points to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/entry_points.txt\n'}
+[4.045725] (loadernasa) StdoutLine: {'line': b'writing requirements to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/requires.txt\n'}
+[4.046456] (loadernasa) StdoutLine: {'line': b'writing top-level names to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/top_level.txt\n'}
+[4.130866] (-) TimerEvent: {}
+[4.218905] (loadernasa) StdoutLine: {'line': b"reading manifest file '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'\n"}
+[4.227638] (loadernasa) StdoutLine: {'line': b"writing manifest file '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info/SOURCES.txt'\n"}
+[4.228428] (loadernasa) StdoutLine: {'line': b'running build\n'}
+[4.228955] (loadernasa) StdoutLine: {'line': b'running build_py\n'}
+[4.230129] (loadernasa) StdoutLine: {'line': b'copying loadernasa/pi4ImuClient.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa\n'}
+[4.230963] (-) TimerEvent: {}
+[4.231506] (loadernasa) StdoutLine: {'line': b'copying loadernasa/odriveCmdClient.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa\n'}
+[4.233309] (loadernasa) StdoutLine: {'line': b'copying loadernasa/imuService.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa\n'}
+[4.234195] (loadernasa) StdoutLine: {'line': b'copying loadernasa/pi4OdriveSub.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa\n'}
+[4.235061] (loadernasa) StdoutLine: {'line': b'copying loadernasa/heroPi4Client.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa\n'}
+[4.236806] (loadernasa) StdoutLine: {'line': b'copying loadernasa/odriveEncoderPub.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa\n'}
+[4.240221] (loadernasa) StdoutLine: {'line': b'running install\n'}
+[4.242072] (loadernasa) StdoutLine: {'line': b'running install_lib\n'}
+[4.245833] (loadernasa) StdoutLine: {'line': b'copying /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa/pi4ImuClient.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa\n'}
+[4.246865] (loadernasa) StdoutLine: {'line': b'copying /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa/odriveCmdClient.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa\n'}
+[4.249005] (loadernasa) StdoutLine: {'line': b'copying /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa/imuService.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa\n'}
+[4.249957] (loadernasa) StdoutLine: {'line': b'copying /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa/pi4OdriveSub.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa\n'}
+[4.250888] (loadernasa) StdoutLine: {'line': b'copying /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa/heroPi4Client.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa\n'}
+[4.252689] (loadernasa) StdoutLine: {'line': b'copying /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/build/lib/loadernasa/odriveEncoderPub.py -> /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa\n'}
+[4.256094] (loadernasa) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa/pi4ImuClient.py to pi4ImuClient.cpython-36.pyc\n'}
+[4.258921] (loadernasa) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa/odriveCmdClient.py to odriveCmdClient.cpython-36.pyc\n'}
+[4.262465] (loadernasa) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa/imuService.py to imuService.cpython-36.pyc\n'}
+[4.264515] (loadernasa) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa/pi4OdriveSub.py to pi4OdriveSub.cpython-36.pyc\n'}
+[4.266601] (loadernasa) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa/heroPi4Client.py to heroPi4Client.cpython-36.pyc\n'}
+[4.269615] (loadernasa) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa/odriveEncoderPub.py to odriveEncoderPub.cpython-36.pyc\n'}
+[4.276370] (loadernasa) StdoutLine: {'line': b'running install_data\n'}
+[4.282270] (loadernasa) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.291630] (loadernasa) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[4.293406] (loadernasa) StdoutLine: {'line': b'Copying /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/loadernasa.egg-info to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/python3.6/site-packages/loadernasa-0.0.0-py3.6.egg-info\n'}
+[4.299023] (loadernasa) StdoutLine: {'line': b'running install_scripts\n'}
+[4.331118] (-) TimerEvent: {}
+[4.386585] (loadernasa) StdoutLine: {'line': b'Installing client script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.387466] (loadernasa) StdoutLine: {'line': b'Installing heroPi4Client script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.388285] (loadernasa) StdoutLine: {'line': b'Installing heroPi4Pub script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.389182] (loadernasa) StdoutLine: {'line': b'Installing imuService script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.390032] (loadernasa) StdoutLine: {'line': b'Installing jetsonSevice script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.390899] (loadernasa) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.391856] (loadernasa) StdoutLine: {'line': b'Installing odriveCmdClient script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.392731] (loadernasa) StdoutLine: {'line': b'Installing odriveEncoderPub script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.393584] (loadernasa) StdoutLine: {'line': b'Installing pi4CameraClient script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.394433] (loadernasa) StdoutLine: {'line': b'Installing pi4HeroService script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.395194] (loadernasa) StdoutLine: {'line': b'Installing pi4HeroSub script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.396058] (loadernasa) StdoutLine: {'line': b'Installing pi4ImuClient script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.397004] (loadernasa) StdoutLine: {'line': b'Installing pi4OdriveCmdService script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.397856] (loadernasa) StdoutLine: {'line': b'Installing pi4OdriveSub script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.398666] (loadernasa) StdoutLine: {'line': b'Installing service script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.399485] (loadernasa) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/install/loadernasa/lib/loadernasa\n'}
+[4.403038] (loadernasa) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/RMC-MQP-2019-20/RASPI4/loaderWorkSpace/build/loadernasa/install.log'\n"}
+[4.431546] (-) TimerEvent: {}
+[4.509666] (loadernasa) CommandEnded: {'returncode': 0}
+[4.532936] (-) TimerEvent: {}
+[4.589389] (loadernasa) JobEnded: {'identifier': 'loadernasa', 'rc': 0}
+[4.593269] (-) EventReactorShutdown: {}
